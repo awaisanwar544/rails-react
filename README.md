@@ -1,24 +1,77 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails-React Setup
 
-Things you may want to cover:
+> A test applkication to setup reails with react ui
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
+- Ruby on Rails
+- React
 
-* Database creation
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get a local copy up and running follow these simple steps.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Prerequisites
 
-* Deployment instructions
+- Have git correctly installed.
+- Have Ruby correctly installed.
 
-* ...
+### Setup
+
+- Open a terminal window where you want to have installed a clone of the repository.
+
+### Install
+
+- Use this command to clone the repo:
+```
+$ git clone git@github.com:helio3197/blog-app.git
+```
+- Install the required dependencies:
+```
+$ bundle install
+```
+### Usage
+
+- Run:
+```
+$ rails s
+```
+
+- Tests:
+```
+$ rspec
+```
+
+- Edit the content as you like.
+
+## Authors
+👤 **Awais Anwar**
+
+- GitHub: [@githubhandle](https://github.com/awaisanwar544)
+- Twitter: [@twitterhandle](https://twitter.com/AwaisAnwar47)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/awaisanwar544/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Microverse for the guidelines.
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
