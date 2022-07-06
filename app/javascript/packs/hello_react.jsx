@@ -3,17 +3,24 @@
 // of the page.
 
 import React from 'react'
-import { createRoot } from "react-dom/client";
+import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
-import App from '../components/App'
 
+const Hello = props => (
+  <div>Hello {props.name}!</div>
+)
+
+Hello.defaultProps = {
+  name: 'David'
+}
+
+Hello.propTypes = {
+  name: PropTypes.string
+}
 
 document.addEventListener('DOMContentLoaded', () => {
-  const container = document.getElementById("root");
-  const root = createRoot(container);
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
+  ReactDOM.render(
+    <Hello name="React" />,
+    document.body.appendChild(document.createElement('div')),
+  )
 })
