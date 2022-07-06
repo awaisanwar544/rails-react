@@ -1,7 +1,7 @@
 import { createStore } from 'redux';
 
 const initialState = {
-  messages: []
+  message: []
 }
 
 function rootReducer(state, action) {

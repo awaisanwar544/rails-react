@@ -9,19 +9,17 @@ import configureStore from "../configureStore"
 
 import { Provider } from 'react-redux'
 
-class App extends React.Component {
-  render () {
-    return (
-      <Provider store={store}>
-        <BrowserRouter>
-          <Routes>
-            <Route exact path='/' render={() => ('Home!')} />
-            <Route path='/hello' render={() => <Greeting message='Friends' /> } />
-          </Routes>
-        </BrowserRouter>
-      </Provider>
-    );
-  }
+function App () {
+  return (
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' render={() => ('Home!')} />
+          <Route path='/hello' render={() => <Greeting message='Friends' /> } />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
+  );
 }
 
 export default App
